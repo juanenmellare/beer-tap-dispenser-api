@@ -10,7 +10,8 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(ts|json)\"",
     "build": "npx tsc",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "migrate": "cd sequelize && sequelize-cli db:migrate"
   },
   "keywords": [],
   "author": "Juan Enrique Mellare",

@@ -49,13 +49,13 @@ service.
 
 **Commands**
 ```console
+npm install             # Install dependencies
+```
+```console
+npm run migrate         # Run sequelize migrations
+```
+```console
 npm run start:dev       # Run in development environment
-```
-```console
-npm run build           # Build application
-```
-```console
-npm run start           # Run in production environment (after 'build')
 ```
 ```console
 npm run lint            # Run linter
@@ -68,6 +68,12 @@ npm run test            # Run tests and generate coverage report
 ```
 ```console
 npm run test:watch      # Run tests and watch
+```
+```console
+npm run build           # Build application
+```
+```console
+npm run start           # Run in production environment (after 'build')
 ```
 
 
